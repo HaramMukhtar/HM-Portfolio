@@ -7,11 +7,22 @@ const Contact = () => {
     const form = useRef();
     
     const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_7dsl7ik', 'template_rl6nb0j', form.current, '5MxZXFrvOcVy5nk4k')
-        e.target.reset();
-    };
+  e.preventDefault();
+
+  emailjs
+    .sendForm('service_7dsl7ik', 'template_rl6nb0j', form.current, '5MxZXFrvOcVy5nk4k')
+    .then(
+      (result) => {
+        alert("Message sent successfully!");
+        e.target.reset(); // clear form
+      },
+      (error) => {
+        alert("Failed to send message. Please try again later.");
+        console.error(error.text);
+      }
+    );
+};
+
   
     return (
     <section className="contact section" id="contact">
