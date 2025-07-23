@@ -110,7 +110,7 @@
     .nav__toggle {
   font-size: 1.1rem;
   cursor: pointer;
-  padding-right: 2rem; /* ✅ Add this line */
+  padding-right: 3rem; /* ✅ Add this line */
 }
 
     .nav__icon, .nav__close, .nav__toggle {
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 350px) {
     .nav__menu {
-        padding: 2rem 0.25rem 4rem;
+        padding: rem 0.25rem 4rem;
     }
 
     .nav__list {
