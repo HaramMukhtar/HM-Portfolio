@@ -9,10 +9,56 @@ import BACIP from "../../assets/BACIP.png";
 import DMFP from "../../assets/DMFP.png";
 import baner from "../../assets/baner.png";
 import Hostel from "../../assets/Hostel.png";
-// import avl from "../../assets/avl.jpg";
+import bro from "../../assets/bro.jpg";
 // import grading from "../../assets/grading.jpeg";
 
 export const projectsData = [
+
+        //Graphic Designing Projects
+    {
+        id: 6,
+        image: Travel,
+        title: "Travel Exploration Platform UIUX (Web,Tablet,App)",
+        category: "Graphic Designing Projects",
+        code: "https://www.figma.com/design/AdpDejvf0nod0eIl0T8NXy/Untitled?node-id=0-1&t=U4zwY2iliyOInYXT-1"
+    },
+    {
+        id: 7,
+        image: RiceUI,
+        title: "Rice leaf Disease Detection UIUX (App)",
+        category: "Graphic Designing Projects",
+        code: "https://www.figma.com/design/ggGJfKiUn8t0NBH0zpodWn/E-Crop-Diagnosis-App-(Community)?node-id=0-1&t=eC34FzDyj6oOvqH9-1"
+    },
+    {
+        id: 10,
+        image: baner,
+        title: "Digital Marketing Agency Banner (Photoshop)",
+        category: "Graphic Designing Projects",
+        code: ""
+    },
+    {
+        id: 11,
+        image: bro,
+        title: "Professional Company Profile Brochure (Photoshop)",
+        category: "Graphic Designing Projects",
+        code: ""
+    },
+    {
+        id: 8,
+        image: BACIP,
+        title: " Business Agency Corporate Instagram Post(Canva)",
+        category: "Graphic Designing Projects",
+        code: "https://www.canva.com/design/DAGt8VWZi-I/xCPA82J4tOD-e5tuSrNu2Q/edit?utm_content=DAGt8VWZi-I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+        id: 9,
+        image: DMFP,
+        title: "Digital marketing Facebook post(canva)",
+        category: "Graphic Designing Projects",
+        code: "https://www.canva.com/design/DAGt8dvu4Yg/VmdT5xYYl1itfkGM0ub7TQ/edit?utm_content=DAGt8dvu4Yg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    
+
     // App Development AI/ML Projects
     {
         id: 1,
@@ -52,53 +98,10 @@ export const projectsData = [
         code: "https://github.com/HaramMukhtar/Resturant-Management-System-React.js"
     },
 
-    //Graphic Designing Projects
-    {
-        id: 6,
-        image: Travel,
-        title: "Travel Exploration Platform UIUX (Web,Tablet,App)",
-        category: "Graphic Designing Projects",
-        code: "https://www.figma.com/design/AdpDejvf0nod0eIl0T8NXy/Untitled?node-id=0-1&t=U4zwY2iliyOInYXT-1"
-    },
-    {
-        id: 7,
-        image: RiceUI,
-        title: "Rice leaf Disease Detection UIUX (App)",
-        category: "Graphic Designing Projects",
-        code: "https://www.figma.com/design/ggGJfKiUn8t0NBH0zpodWn/E-Crop-Diagnosis-App-(Community)?node-id=0-1&t=eC34FzDyj6oOvqH9-1"
-    },
-    {
-        id: 8,
-        image: BACIP,
-        title: " Business Agency Corporate Instagram Post(Canva)",
-        category: "Graphic Designing Projects",
-        code: "https://www.canva.com/design/DAGt8VWZi-I/xCPA82J4tOD-e5tuSrNu2Q/edit?utm_content=DAGt8VWZi-I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-    },
-    {
-        id: 9,
-        image: DMFP,
-        title: "Digital marketing Facebook post(canva)",
-        category: "Graphic Designing Projects",
-        code: "https://www.canva.com/design/DAGt8dvu4Yg/VmdT5xYYl1itfkGM0ub7TQ/edit?utm_content=DAGt8dvu4Yg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-    },
-    {
-        id: 10,
-        image: baner,
-        title: "Digital Marketing Agency Banner (Photoshop)",
-        category: "Graphic Designing Projects",
-        code: ""
-    },
-    // {
-    //     id: 11,
-    //     image: summary,
-    //     title: "Digital Marketing Agency Banner (Photoshop)",
-    //     category: "Graphic Designing Projects",
-    //     code: ""
-    // },
 
     // Programming Project
     {
-        id: 11,
+        id: 12,
         image: Hostel,
         title: "Hostel Management System DSA(C++)",
         category: "Programming Project",

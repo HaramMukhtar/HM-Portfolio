@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 350px) {
     .nav__menu {
-        padding: rem 0.25rem 4rem;
+        padding: 2rem 0.25rem 4rem;
     }
 
     .nav__list {
